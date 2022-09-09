@@ -1,0 +1,58 @@
+/* Variables */
+
+// 基础
+$fontSize: 12px;
+$basicPadding: 10px;
+$fontColor: #fff;
+
+
+// 头部导航
+$navHeight: 64px;
+// $navBg: #3a4266;
+$navBg: #fff;
+$navTitleColor: #333;
+$navScreenIconColor: #999;
+$navScreenIconSize: 30px;
+
+// 侧边栏
+$sideBarWidth: 220px;
+$sideBarMinWidth: 54px;
+
+// hamburger
+$hamburgerHeight: 40px;
+$hamburgerLineBg: #E0E0E0;
+$hamburgerWidth: 60px;
+$hamburgerMinWidth: 20px;
+
+
+// 
+$success: #00C04E;
+$error: #FF4D4F;
+$primary-color: #004FC1;
+$primaryColor: #004FC1;
+
+
+// table
+$basicSpace: 8px;
+$tablePadding: 24px;
+$tableHeadBg:#F7F7F7;
+$tableHeadHeight: 36px;
+$tableHeadColor: #333;
+$tableBodyGrayBg: #F6F8FF;
+$tableBodyActiveBg: #E1EDFF;
+$tableBodyChildRowBg: #F6F6F6;
+$tableHoverRowBg: #E1EDFF;
+$tableBorderColor: rgba(201, 201, 201, 0.28);
+$checkboxColor: #dcdfe6;
+$tableCellLineColor: rgba(201, 201, 201, 0.28);
+
+@mixin flexBetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin linkStyle {
+    color: $primary-color;
+    cursor: pointer;
+}
+
